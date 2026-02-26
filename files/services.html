@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Sarwari Dental Clinic</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!--JQuery CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="services.css">
+</head>
+<body>
+
+  <!-- HEADER / NAV -->
+ <nav class="navbar">
+    <div class="max-width">
+              <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+       <div class="card">
+    <div class="logo-img">
+        <img src="/images/logo.png" alt="Logo">
+    </div>
+    <div class="logo">
+        <a href="/index.html">Sarwari <span>Dental</span> Clinic</a>
+    </div>
+</div>
+        <ul class="menu">
+            <li><a id="one" href="/index.html" class="menu-link">Home Page</a></li>
+            <li><a id="two" href="about.html" class="menu-link">About Us</a></li>
+            <li><a id="three" href="services.html" class="menu-link">Services</a></li>
+            <li><a id="four" href="booking.html" class="menu-link">Book Appointment</a></li>
+        </ul>
+      <div class="search-icon">
+    <input type="text" placeholder="Search">
+    <div class="autocom-box"></div>
+   <label for="icon" class="icon"> <i class="fas fa-search"></i> </label>
+</div>
+    </div>
+</nav>
+
+
+<div class="main-content">
+  <!-- HERO SECTION -->
+  <section class="services-hero">
+    <div class="services-hero-content">
+    <h2 id="five">Our Services</h2>
+    <p id="six">We provide gentle, modern dental care for the whole family.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES GRID -->
+  <section class="services-grid">
+  <div class="service-card">
+    <img src="/images/services4.png" alt="Dental Implants">
+    <h3 id="seven">Dental Implants</h3>
+    <p id="eight">Replace missing teeth with natural-feeling implants that look and function like real teeth.</p>
+  </div>
+  <div class="service-card">
+    <img src="/images/services3.png" alt="Crowns & Bridges">
+    <h3 id="nine">Crowns & Bridges</h3>
+    <p id="ten">Custom-made crowns and bridges restore damaged or missing teeth for a flawless smile.</p>
+  </div>
+  <div class="service-card">
+    <img src="/images/services2.png" alt="Deep Cleaning">
+    <h3 id="eleven">Deep Cleaning</h3>
+    <p id="twelve">Professional deep cleaning to remove plaque and tartar buildup for healthier gums.</p>
+  </div>
+  <div class="service-card">
+    <img src="/images/services1.png" alt="Veneers">
+    <h3 id="thirteen">Veneers & Cosmetic Work</h3>
+    <p id="fourteen">Enhance your smile with veneers, bonding, and other cosmetic procedures for natural-looking results.</p>
+  </div>
+</section>
+
+<!-- Testimonial Section -->
+<section class="testimonial-section">
+  <h2 id="fifteen" class="testimonial-heading">What Our Patients Say</h2>
+  <div class="testimonial-slider">
+    <div class="slider-bg">
+      <canvas id="sliderParticles"></canvas>
+    </div>
+    <button class="slider-btn prev">&#10094;</button>
+    <div class="slider-track-wrapper">
+      <div class="slider-track">
+        <div class="testimonial-card" data-rating="5">
+          <div class="photo"><img src="/images/guest.png" alt="Sarah K."></div>
+          <p class="message">Dr. Sarwari made my visit painless and easy. Highly recommend!</p>
+          <p class="name">– Sarah K.</p>
+          <p class="date">Jan 10, 2025</p>
+          <div class="stars"></div>
+        </div>
+        <div class="testimonial-card" data-rating="5">
+          <div class="photo"><img src="/images/guest.png" alt="Ahmed R."></div>
+          <p class="message">Friendly staff and great care. Love this place!</p>
+          <p class="name">– Ahmed R.</p>
+          <p class="date">Feb 5, 2025</p>
+          <div class="stars"></div>
+        </div>
+        <div class="testimonial-card" data-rating="4">
+          <div class="photo"><img src="/images/guest.png" alt="Layla S."></div>
+          <p class="message">Quick appointment and excellent results.</p>
+          <p class="name">– Layla S.</p>
+          <p class="date">Mar 2, 2025</p>
+          <div class="stars"></div>
+        </div>
+        <div class="testimonial-card" data-rating="4">
+          <div class="photo"><img src="/images/guest.png" alt="Omar H."></div>
+          <p class="message">Good service, could improve wait times.</p>
+          <p class="name">– Omar H.</p>
+          <p class="date">Apr 12, 2025</p>
+          <div class="stars"></div>
+        </div>
+      </div>
+    </div>
+    <button class="slider-btn next">&#10095;</button>
+    <div class="slider-dots"></div>
+  </div>
+</section>
+
+<!--Footer-->
+
+<footer class="site-footer">
+  <div class="footer-container">
+
+    <!-- Column 1 -->
+    <div class="footer-col">
+      <h3>Sarwari Dental Clinic</h3>
+      <p id="sixteen">
+        Providing gentle, modern dental care for the whole family.
+        Your smile is our priority.
+      </p>
+    </div>
+
+    <!-- Column 2 -->
+    <div class="footer-col">
+      <h4 id="seventeen">Quick Links</h4>
+      <ul>
+        <li><a id="eighteen" href="/index.html">Home Page</a></li>
+        <li><a id="nineteen" href="about.html">About Us</a></li>
+        <li><a id="twenty" href="services.html">Services</a></li>
+        <li><a id="twentyone" href="booking.html">Book Appointment</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div class="footer-col">
+      <h4 id="twentytwo">Contact</h4>
+      <p id="twentythree">123 Main St, City, Country</p>
+      <p id="twentyfour">+1 123-456-7890</p>
+      <p id="twentyfive">example@example.com</p>
+    </div>
+
+    <!-- Column 4 -->
+    <div class="footer-col">
+      <h4 id="twentysix">Office Hours</h4>
+      <p id="twentyseven"> 1:00 PM – 5:00 PM</p>
+    </div>
+    <div class="language-selector">
+    <label id="twentyeight" for="lang">Language:</label>
+    <select id="lang">
+      <option value="en">English</option>
+      <option value="pa">پښتو</option>
+      <option value="da">دری</option>
+    </select>
+  </div>
+  </div>
+    <div class="footer-bottom">
+  <p id="twentynine">© 2026 Sarwari Dental Clinic. All rights reserved.</p>
+  <p class="developer"><span id="thirty">Developed By </span><a id="thirtyone" href="mailto:moosakhailn@gmail.com">Numanullah Moosakhail.</a></p>
+</div>
+
+
+  </footer>
+  </div>
+
+  <script src="/js/services.js"></script>
+  <script src="/js/services-language.js"></script>
+
+</body>
+</html>
